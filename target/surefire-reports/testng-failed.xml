@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ListenerCoverFox"/>
+    <listener class-name="listeners.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="enterMemeberDeatils"/>
+          <include name="validateTestPlansFromTextAndBanners"/>
+        </methods>
+      </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
