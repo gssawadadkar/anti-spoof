@@ -7,14 +7,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
+      <class name="coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
           <include name="enterMemeberDeatils"/>
-          <include name="validateTestPlansFromTextAndBanners"/>
+          <include name="launchBrowser"/>
+          <include name="validate_pinCode_ErrorMsg"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
+      </class> <!-- coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

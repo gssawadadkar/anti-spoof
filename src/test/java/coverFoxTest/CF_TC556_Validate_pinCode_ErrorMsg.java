@@ -22,36 +22,30 @@ import coverFoxPOM.CoverFoxHomePage;
 import coverFoxPOM.CoverFoxMemberDetailsPage;
 import coverFoxUtility.Utility;
 
-
-
 public class CF_TC556_Validate_pinCode_ErrorMsg extends Base {
 	public static Logger logger;
-	
+
 	CoverFoxHomePage home;
 	CoverFoxHealthPlanPage healthPlan;
 	CoverFoxMemberDetailsPage memberDetails;
 	CoverFoxAddressDetailsPage adress;
-	
-	
+
 	@BeforeClass
-	public void launchBrowser() throws InterruptedException
-	{
+	public void launchBrowser() throws InterruptedException {
 //		logger= logger.getLogger("CoverFoxInsurance");
 //		PropertyConfigurator.configure("log4j.properties");
 		launchCoverFox();
-		home= new CoverFoxHomePage(driver);
-		healthPlan= new CoverFoxHealthPlanPage(driver);
-		memberDetails= new CoverFoxMemberDetailsPage(driver);
-		adress= new CoverFoxAddressDetailsPage(driver);
-		
-		
+		home = new CoverFoxHomePage(driver);
+		healthPlan = new CoverFoxHealthPlanPage(driver);
+		memberDetails = new CoverFoxMemberDetailsPage(driver);
+		adress = new CoverFoxAddressDetailsPage(driver);
+
 	}
-	
+
 	@BeforeMethod
-	public void enterMemeberDeatils() throws InterruptedException, EncryptedDocumentException, IOException
-	{
+	public void enterMemeberDeatils() throws InterruptedException, EncryptedDocumentException, IOException {
 		home.clickOnMaleButton();
-	
+
 		Thread.sleep(1000);
 		healthPlan.clickOnNextButton();
 		Thread.sleep(1000);
@@ -63,22 +57,18 @@ public class CF_TC556_Validate_pinCode_ErrorMsg extends Base {
 		adress.clickOnContinueButton();
 		Thread.sleep(1000);
 	}
-	
-	
-	
+
 	@Test
-  public void validate_pinCode_ErrorMsg()
-  {
+	public void validate_pinCode_ErrorMsg() {
 		Reporter.log("Validating pinCode Error msg", true);
 		boolean result = adress.validateErrorPinErrorMsg();
-		Assert.assertTrue(result,"Pin Code error msg is not displayed, TC is failed");
+		Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
 		Reporter.log("TC is passed", true);
-		
-  }
-	
+
+	}
+
 	@AfterMethod
-	public void closeBrowser() throws InterruptedException
-	{
+	public void closeBrowser() throws InterruptedException {
 		Thread.sleep(4000);
 		closeCoverFox();
 	}
