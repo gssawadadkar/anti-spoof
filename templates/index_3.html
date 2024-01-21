@@ -1,0 +1,70 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+</head>
+<body style="background-color: hsl(303, 100%, 50%);">
+    <br><br>
+    <form id="employeeForm" method="POST" action="/verify_employee">
+        <label>Employee Code:</label>
+        <input type="text" name="empcode"> <!-- Change the name attribute to "empCode" -->
+        <br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <br><br>
+    <div id="webcamContainer" style="display: none;">
+        <h3>Live Webcam Feed</h3>
+        <video id="webcam" width="640" height="480" autoplay></video>
+    </div>
+
+    <script>
+        document.getElementById('employeeForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the form from submitting the traditional way
+            
+            // Show the webcam container
+            document.getElementById('webcamContainer').style.display = 'block';
+            
+            // Access the webcam and display the live feed
+            const webcamElement = document.getElementById('webcam');
+            if (webcamElement) {
+                webcamElement.src = "/video_feed";
+            }
+        });
+    </script>
+
+    {{employee_name}}
+</body>
+</html>
+
+
+####################################working ####################################
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+</head>
+<body style="background-color: hsl(30, 25%, 91%);">
+    <br><br>
+    <form method="POST" action="/verify_employee">
+        <label>Employee Code:</label>
+        <input type="text" name="empcode"> <!-- Change the name attribute to "empCode" -->
+        <br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <br><br>
+    <div>
+        <img src="{{ url_for('video_feed') }}" width="50%"/>
+    </div>
+    {{employee_name}}
+</body>
+</html>
