@@ -60,6 +60,7 @@ public class CF_TC556_Validate_pinCode_ErrorMsg extends Base {
 
 	@Test
 	public void validate_pinCode_ErrorMsg() {
+		Assert.fail();
 		Reporter.log("Validating pinCode Error msg", true);
 		boolean result = adress.validateErrorPinErrorMsg();
 		Assert.assertTrue(result, "Pin Code error msg is not displayed, TC is failed");
