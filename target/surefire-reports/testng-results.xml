@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Launching browser ]]>
@@ -12,12 +12,6 @@
     </line>
     <line>
       <![CDATA[Entering mobile Num..]]>
-    </line>
-    <line>
-      <![CDATA[Validating pinCode Error msg]]>
-    </line>
-    <line>
-      <![CDATA[TC is passed]]>
     </line>
     <line>
       <![CDATA[Closing browser ]]>
@@ -41,19 +35,19 @@
       <![CDATA[Closing browser ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-17T14:03:42 IST" name="Suite" finished-at="2024-01-17T14:04:30 IST" duration-ms="47799">
+  <suite started-at="2024-01-25T15:10:52 IST" name="Suite" finished-at="2024-01-25T15:11:40 IST" duration-ms="47964">
     <groups>
     </groups>
-    <test started-at="2024-01-17T14:03:42 IST" name="Test" finished-at="2024-01-17T14:04:30 IST" duration-ms="47799">
+    <test started-at="2024-01-25T15:10:52 IST" name="Test" finished-at="2024-01-25T15:11:40 IST" duration-ms="47964">
       <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@158d2680]" started-at="2024-01-17T14:04:03 IST" name="launchBrowser" finished-at="2024-01-17T14:04:07 IST" duration-ms="4088" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@368247b9]" started-at="2024-01-25T15:11:12 IST" name="launchBrowser" finished-at="2024-01-25T15:11:17 IST" duration-ms="5610" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching browser ]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemeberDeatils()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@158d2680]" started-at="2024-01-17T14:04:07 IST" name="enterMemeberDeatils" finished-at="2024-01-17T14:04:12 IST" duration-ms="5321" status="PASS">
+        <test-method is-config="true" signature="enterMemeberDeatils()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@368247b9]" started-at="2024-01-25T15:11:17 IST" name="enterMemeberDeatils" finished-at="2024-01-25T15:11:23 IST" duration-ms="5213" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reading data from excelSheet]]>
@@ -69,11 +63,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterMemeberDeatils -->
-        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@158d2680]" started-at="2024-01-17T14:04:12 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-17T14:04:25 IST" duration-ms="13098" status="PASS">
+        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@368247b9]" started-at="2024-01-25T15:11:23 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-25T15:11:36 IST" duration-ms="13085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTestPlansFromTextAndBanners -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@158d2680]" started-at="2024-01-17T14:04:25 IST" name="closeBrowser" finished-at="2024-01-17T14:04:30 IST" duration-ms="4186" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@368247b9]" started-at="2024-01-25T15:11:36 IST" name="closeBrowser" finished-at="2024-01-25T15:11:40 IST" duration-ms="4166" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing browser ]]>
@@ -82,14 +76,14 @@
         </test-method> <!-- closeBrowser -->
       </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
       <class name="coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@1d2adfbe]" started-at="2024-01-17T14:03:42 IST" name="launchBrowser" finished-at="2024-01-17T14:03:50 IST" duration-ms="8154" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@45099dd3]" started-at="2024-01-25T15:10:52 IST" name="launchBrowser" finished-at="2024-01-25T15:11:00 IST" duration-ms="7589" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching browser ]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="enterMemeberDeatils()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@1d2adfbe]" started-at="2024-01-17T14:03:50 IST" name="enterMemeberDeatils" finished-at="2024-01-17T14:03:58 IST" duration-ms="7646" status="PASS">
+        <test-method is-config="true" signature="enterMemeberDeatils()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@45099dd3]" started-at="2024-01-25T15:11:00 IST" name="enterMemeberDeatils" finished-at="2024-01-25T15:11:07 IST" duration-ms="7101" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reading data from excelSheet]]>
@@ -102,17 +96,55 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterMemeberDeatils -->
-        <test-method signature="validate_pinCode_ErrorMsg()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@1d2adfbe]" started-at="2024-01-17T14:03:58 IST" name="validate_pinCode_ErrorMsg" finished-at="2024-01-17T14:03:58 IST" duration-ms="63" status="PASS">
+        <test-method signature="validate_pinCode_ErrorMsg()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@45099dd3]" started-at="2024-01-25T15:11:07 IST" name="validate_pinCode_ErrorMsg" finished-at="2024-01-25T15:11:07 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg.validate_pinCode_ErrorMsg(CF_TC556_Validate_pinCode_ErrorMsg.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Validating pinCode Error msg]]>
-            </line>
-            <line>
-              <![CDATA[TC is passed]]>
-            </line>
           </reporter-output>
         </test-method> <!-- validate_pinCode_ErrorMsg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@1d2adfbe]" started-at="2024-01-17T14:03:58 IST" name="closeBrowser" finished-at="2024-01-17T14:04:03 IST" duration-ms="5173" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC556_Validate_pinCode_ErrorMsg@45099dd3]" started-at="2024-01-25T15:11:07 IST" name="closeBrowser" finished-at="2024-01-25T15:11:12 IST" duration-ms="5158" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing browser ]]>

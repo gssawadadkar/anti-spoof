@@ -11,6 +11,9 @@ public class Base
 	
 	public void launchCoverFox() throws InterruptedException
 	{
+		
+		
+		
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		Reporter.log("Launching browser ", true);
